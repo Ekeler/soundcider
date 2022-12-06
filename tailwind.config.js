@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      "fontFamily": {
+        "body": "EngraversGothicBold, sans-serif"
+      },
+      "colors": {
+        "dark": "#4d433c",
+        "light": "#fffef1",
+      }
+    },
   },
   plugins: [],
 }
