@@ -1796,11 +1796,6 @@ video {
   font-family: EngraversGothicBold, sans-serif;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -2212,8 +2207,8 @@ video {
 @font-face {
   font-family: 'EngraversGothicBold';
 
-  src: url('dist/EngraversGothicBold.woff2') format('woff2'),
-      url('dist/EngraversGothicBold.woff') format('woff');
+  src: url('EngraversGothicBold.woff2') format('woff2'),
+      url('EngraversGothicBold.woff') format('woff');
 
   font-weight: bold;
 
