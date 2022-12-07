@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       "fontFamily": {
-        "body": "EngraversGothicBold, sans-serif"
+        "body": "RM Typerighter old, sans-serif"
       },
       "colors": {
         "dark": "#4d433c",

@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'EngraversGothicBold';
-  src: url('EngraversGothicBold.woff2') format('woff2'),
-      url('EngraversGothicBold.woff') format('woff');
-  font-weight: bold;
+  font-family: 'RM Typerighter old';
+  src: url('RM-Typerighter-old.woff2') format('woff2'),
+      url('RM-Typerighter-old.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
+
