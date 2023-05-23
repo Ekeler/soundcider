@@ -38,3 +38,14 @@
     0% 20px
   )
 }
+
+.fancybox__container {
+  --fancybox-color: #4d433c !important;
+}
+
+.fancybox__content>.f-button.is-close-btn {
+  top: 15px !important;
+  right: 15px !important;
+  --f-button-color: #4d433c !important;
+  --f-button-bg: transparent !important;
+}
