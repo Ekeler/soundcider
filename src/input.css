@@ -13,8 +13,10 @@
 
 .bg-paper {
   background-image: url('paper-mobile.jpg');
+}
 
-  @screen lg {
+@screen lg {
+  .bg-paper {
     background-image: url('paper-desktop.jpg');
   }
 }
